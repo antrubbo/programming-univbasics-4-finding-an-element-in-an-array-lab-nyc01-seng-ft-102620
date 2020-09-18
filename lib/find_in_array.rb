@@ -1,5 +1,7 @@
 def find_element_index(array, value)
-  new_array = []
-  array.length.times {|a| new_array << a == value}
-  new_array
+  count = 0
+  while count < array.length do
+    puts array[count] == value
+    count += 1
+  end
 end
